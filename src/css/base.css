@@ -1,0 +1,85 @@
+body {
+  /* font-family: ; */
+  /* font-size: ; */
+  /* line-height: ; */
+  background-color: #fefefa;
+  color: #1a2421;
+}
+/* Шрифти будуть змінені дизайнером */
+
+@media screen and (min-width: 768px) {
+  body {
+    /* font-size: ; */
+    /* line-height: ; */
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section-title {
+  /* font-weight: ; */
+  /* font-size: ; */
+  /* line-height: ; */
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    /* font-size: ; */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-title {
+    /* font-size: ; */
+  }
+}
+
+.accent-text {
+  color: #658cbb;
+}
+
+.btn-general {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #658cbb;
+  border: 1px;
+  color: #fefefa;
+  height: 44px;
+  /* font-size: ; */
+  /* line-height: ; */
+}
+
+@media screen and (min-width: 768px) {
+  .btn-general {
+    height: 56px;
+  }
+}
+
+/* дизайнер уточнить чи висота кнопок для десктопу залишиться однакова */
+
+.logo-font {
+  /* font-family: ; */
+  color: #fefefa;
+}
